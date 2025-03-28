@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+
 
 function Projects() {
   return (
@@ -28,7 +25,7 @@ function Projects() {
               title="Club-management"
               description="Club Management is a web platform for university clubs to register, list events, and manage student applications. Developed with React, Node.js, Express.js, and MongoDB, it streamlines event organization and engagement within university communities."
               ghLink="https://github.com/Parthik10/club_management"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://clubmanagement1.netlify.app/"
             />
           </Col>
 
