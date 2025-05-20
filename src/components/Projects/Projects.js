@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import club from "../../Assets/Projects/club.png";
+import report from "../../Assets/Projects/report.png";
+import mystic from "../../Assets/Projects/mystic.png";
+import garvish from "../../Assets/Projects/garvish.png";
 
 
 function Projects() {
@@ -20,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={club}
               isBlog={false}
               title="Club-management"
               description="Club Management is a web platform for university clubs to register, list events, and manage student applications. Developed with React, Node.js, Express.js, and MongoDB, it streamlines event organization and engagement within university communities."
@@ -31,18 +33,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={report}
               isBlog={false}
               title="Reporting portal"
               description="The Reporting Portal is a platform for users to report nearby disasters, social issues, and public concerns while also discussing important social topics. Built with React, Node.js, Express.js, and MongoDB, it empowers communities to raise awareness and find solutions collaboratively."
               ghLink="https://github.com/Parthik10/Reporting-System"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              demoLink="https://reporting-portal1.netlify.app/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={club}
               isBlog={false}
               title="Travel guide"
               description="Built during a hackathon, Travel Guide is a platform where tourists can easily find and connect with local guides. Developed using React, Node.js, Express.js, and MongoDB, it enhances the travel experience by providing verified guides based on location and user preferences."
@@ -69,7 +71,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={mystic}
               isBlog={false}
               title="mystic Design"
               description="Mystic Design is a modern and visually appealing website built using React.js for an interior designer. The project focuses on showcasing design portfolios, offering an interactive and user-friendly experience for potential clients. It features dynamic UI components, smooth navigation, and a responsive layout to highlight the designer’s work effectively. This project was developed during my internship, where I gained hands-on experience in building sleek and functional web applications."
@@ -80,7 +82,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={garvish}
               isBlog={false}
               title="Garvish Marketing"
               description="Garvish Marketing is a modern, fully responsive website developed using React.js for an internal company. The company needed a fresh and efficient platform, so I built a sleek and user-friendly interface tailored to their business needs. The project focused on improving usability, performance, and a modernized design to enhance internal operations and client interactions."
@@ -89,7 +91,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -98,7 +100,7 @@ function Projects() {
               ghLink="https://github.com/Parthik10/ajax-cloth"
               // demoLink=
             />
-          </Col>
+          </Col> */}
 
           </Row>
       </Container>

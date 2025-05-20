@@ -250,14 +250,13 @@ button:focus {
   height: 100%;
 }
 
-.border-round{
+.border-round {
   width: 100%; /* Makes it responsive */
   max-width: 250px; /* Adjust the max size as needed */
   aspect-ratio: 1/1; /* Ensures a perfect square */
   border-radius: 50%; /* Makes it a circle */
   object-fit: cover;
 }
-
 
 .home-header {
   padding-top: 80px !important;
